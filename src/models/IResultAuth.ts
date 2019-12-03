@@ -1,4 +1,7 @@
 export interface ResultAuth {
 	access_token: string
-	type:string
+	token_type:string
+	expires_in: number
+	refresh_expires_in: number
+	refresh_token: string
 }

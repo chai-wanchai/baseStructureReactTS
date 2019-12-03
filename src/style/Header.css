@@ -1,0 +1,12 @@
+.navbar-collapse {
+  justify-content: flex-end;
+}
+@media screen and (max-width: 480px) {
+  .navbar-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    width: 90%;
+  }
+}
