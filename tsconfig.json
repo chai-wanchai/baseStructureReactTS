@@ -22,6 +22,6 @@
     "noImplicitAny": false,
   },
   "include": [
-    "src", "testing/App.test.tsx"
+    "src", "testing/App.test.tsx","static.config.ts"
   ]
 }
