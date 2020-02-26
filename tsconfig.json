@@ -17,7 +17,9 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react"
+    "jsx": "react",
+    "outDir": "docs",
+    "noImplicitAny": false,
   },
   "include": [
     "src", "testing/App.test.tsx"
