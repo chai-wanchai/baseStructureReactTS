@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.89e91970.chunk.css",
-    "main.js": "/static/js/main.967559ff.chunk.js",
-    "main.js.map": "/static/js/main.967559ff.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.79fbf0b5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.79fbf0b5.js.map",
-    "static/css/2.17e5ed98.chunk.css": "/static/css/2.17e5ed98.chunk.css",
-    "static/js/2.e50bc5ac.chunk.js": "/static/js/2.e50bc5ac.chunk.js",
-    "static/js/2.e50bc5ac.chunk.js.map": "/static/js/2.e50bc5ac.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.72244fe8913b710d44e3850c6d07056c.js": "/precache-manifest.72244fe8913b710d44e3850c6d07056c.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.17e5ed98.chunk.css.map": "/static/css/2.17e5ed98.chunk.css.map",
-    "static/css/main.89e91970.chunk.css.map": "/static/css/main.89e91970.chunk.css.map",
-    "static/media/logo.svg": "/static/media/logo.25bf045c.svg",
-    "static/media/scg-logo.png": "/static/media/scg-logo.23817162.png"
+    "main.css": "baseStructureReactTS/static/css/main.89e91970.chunk.css",
+    "main.js": "baseStructureReactTS/static/js/main.5c345098.chunk.js",
+    "main.js.map": "baseStructureReactTS/static/js/main.5c345098.chunk.js.map",
+    "runtime-main.js": "baseStructureReactTS/static/js/runtime-main.0ed6110d.js",
+    "runtime-main.js.map": "baseStructureReactTS/static/js/runtime-main.0ed6110d.js.map",
+    "static/css/2.17e5ed98.chunk.css": "baseStructureReactTS/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.e50bc5ac.chunk.js": "baseStructureReactTS/static/js/2.e50bc5ac.chunk.js",
+    "static/js/2.e50bc5ac.chunk.js.map": "baseStructureReactTS/static/js/2.e50bc5ac.chunk.js.map",
+    "index.html": "baseStructureReactTS/index.html",
+    "precache-manifest.cd4bc328edae95840d645907046bf9ca.js": "baseStructureReactTS/precache-manifest.cd4bc328edae95840d645907046bf9ca.js",
+    "service-worker.js": "baseStructureReactTS/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "baseStructureReactTS/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.89e91970.chunk.css.map": "baseStructureReactTS/static/css/main.89e91970.chunk.css.map",
+    "static/media/logo.svg": "baseStructureReactTS/static/media/logo.25bf045c.svg",
+    "static/media/scg-logo.png": "baseStructureReactTS/static/media/scg-logo.23817162.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.79fbf0b5.js",
+    "static/js/runtime-main.0ed6110d.js",
     "static/css/2.17e5ed98.chunk.css",
     "static/js/2.e50bc5ac.chunk.js",
     "static/css/main.89e91970.chunk.css",
-    "static/js/main.967559ff.chunk.js"
+    "static/js/main.5c345098.chunk.js"
   ]
 }
