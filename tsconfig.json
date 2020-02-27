@@ -18,10 +18,11 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react",
-    "outDir": "docs",
-    "noImplicitAny": false,
+    "noImplicitAny": false
   },
   "include": [
-    "src", "testing/App.test.tsx","static.config.ts"
+    "src",
+    "testing/App.test.tsx",
+    "static.config.ts"
   ]
 }

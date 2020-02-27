@@ -1,6 +1,9 @@
 .navbar-collapse {
   justify-content: flex-end;
 }
+.nav-item {
+  margin: 0 10px;
+}
 @media screen and (max-width: 480px) {
   .navbar-link {
     display: flex;

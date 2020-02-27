@@ -2,15 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './style/index.css';
 import App from './modules/App';
-import Layout from './common/components/Layout'
+import LineLogin from './modules/login/LineLogin'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Route } from 'react-router-dom';
 ReactDOM.render(
   <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <Layout>
-      <Route exact path="/" component={App} />
-    </Layout>
+
+    <Route exact path="/" component={App} />
+    <Route exact path="/login" component={LineLogin} />
+
   </BrowserRouter>,
   document.getElementById('root'));
 
