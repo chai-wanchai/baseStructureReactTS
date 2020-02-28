@@ -27,7 +27,6 @@ export default class App extends React.Component<any, any> {
 	render() {
 		return (
 			<React.Fragment>
-				<Header/>
 				<img src={this.state.pictureUrl} className="App-logo" alt="logo" />
 				<p className="App-intro">
 					Display Name : {this.state.displayName} <br />

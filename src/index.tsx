@@ -5,14 +5,14 @@ import App from './modules/App';
 import LineLogin from './modules/login/LineLogin'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as serviceWorker from './serviceWorker';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route,HashRouter  } from 'react-router-dom';
+import Header from './common/components/Header'
 ReactDOM.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
-
+  <HashRouter basename={process.env.PUBLIC_URL}>
+    <Header />
     <Route exact path="/" component={App} />
-    <Route exact path="/login" component={LineLogin} />
-
-  </BrowserRouter>,
+    <Route path="/login" component={LineLogin} />
+  </HashRouter>,
   document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
