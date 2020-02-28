@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "https://wanchai23chai.github.io/baseStructureReactTS/ /static/css/main.33213e63.chunk.css",
-    "main.js": "https://wanchai23chai.github.io/baseStructureReactTS/ /static/js/main.fa8d6702.chunk.js",
-    "main.js.map": "https://wanchai23chai.github.io/baseStructureReactTS/ /static/js/main.fa8d6702.chunk.js.map",
-    "runtime-main.js": "https://wanchai23chai.github.io/baseStructureReactTS/ /static/js/runtime-main.73880338.js",
-    "runtime-main.js.map": "https://wanchai23chai.github.io/baseStructureReactTS/ /static/js/runtime-main.73880338.js.map",
-    "static/css/2.17e5ed98.chunk.css": "https://wanchai23chai.github.io/baseStructureReactTS/ /static/css/2.17e5ed98.chunk.css",
-    "static/js/2.6e830ec7.chunk.js": "https://wanchai23chai.github.io/baseStructureReactTS/ /static/js/2.6e830ec7.chunk.js",
-    "static/js/2.6e830ec7.chunk.js.map": "https://wanchai23chai.github.io/baseStructureReactTS/ /static/js/2.6e830ec7.chunk.js.map",
-    "index.html": "https://wanchai23chai.github.io/baseStructureReactTS/ /index.html",
-    "precache-manifest.25c759c422f854f7e36ccd2b7db2e1c3.js": "https://wanchai23chai.github.io/baseStructureReactTS/ /precache-manifest.25c759c422f854f7e36ccd2b7db2e1c3.js",
-    "service-worker.js": "https://wanchai23chai.github.io/baseStructureReactTS/ /service-worker.js",
-    "static/css/2.17e5ed98.chunk.css.map": "https://wanchai23chai.github.io/baseStructureReactTS/ /static/css/2.17e5ed98.chunk.css.map",
-    "static/css/main.33213e63.chunk.css.map": "https://wanchai23chai.github.io/baseStructureReactTS/ /static/css/main.33213e63.chunk.css.map",
-    "static/media/scg-logo.png": "https://wanchai23chai.github.io/baseStructureReactTS/ /static/media/scg-logo.23817162.png"
+    "main.css": "https://wanchai23chai.github.io/baseStructureReactTS/static/css/main.33213e63.chunk.css",
+    "main.js": "https://wanchai23chai.github.io/baseStructureReactTS/static/js/main.d119cbb6.chunk.js",
+    "main.js.map": "https://wanchai23chai.github.io/baseStructureReactTS/static/js/main.d119cbb6.chunk.js.map",
+    "runtime-main.js": "https://wanchai23chai.github.io/baseStructureReactTS/static/js/runtime-main.70943364.js",
+    "runtime-main.js.map": "https://wanchai23chai.github.io/baseStructureReactTS/static/js/runtime-main.70943364.js.map",
+    "static/css/2.17e5ed98.chunk.css": "https://wanchai23chai.github.io/baseStructureReactTS/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.6e830ec7.chunk.js": "https://wanchai23chai.github.io/baseStructureReactTS/static/js/2.6e830ec7.chunk.js",
+    "static/js/2.6e830ec7.chunk.js.map": "https://wanchai23chai.github.io/baseStructureReactTS/static/js/2.6e830ec7.chunk.js.map",
+    "index.html": "https://wanchai23chai.github.io/baseStructureReactTS/index.html",
+    "precache-manifest.2cf903a97aff4079fc08a41d2d04e40c.js": "https://wanchai23chai.github.io/baseStructureReactTS/precache-manifest.2cf903a97aff4079fc08a41d2d04e40c.js",
+    "service-worker.js": "https://wanchai23chai.github.io/baseStructureReactTS/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "https://wanchai23chai.github.io/baseStructureReactTS/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.33213e63.chunk.css.map": "https://wanchai23chai.github.io/baseStructureReactTS/static/css/main.33213e63.chunk.css.map",
+    "static/media/scg-logo.png": "https://wanchai23chai.github.io/baseStructureReactTS/static/media/scg-logo.23817162.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.73880338.js",
+    "static/js/runtime-main.70943364.js",
     "static/css/2.17e5ed98.chunk.css",
     "static/js/2.6e830ec7.chunk.js",
     "static/css/main.33213e63.chunk.css",
-    "static/js/main.fa8d6702.chunk.js"
+    "static/js/main.d119cbb6.chunk.js"
   ]
 }
