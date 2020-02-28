@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "$%7Bprocess.env.PUBLIC_URL%7D/static/css/main.33213e63.chunk.css",
-    "main.js": "$%7Bprocess.env.PUBLIC_URL%7D/static/js/main.2aa5eda2.chunk.js",
-    "main.js.map": "$%7Bprocess.env.PUBLIC_URL%7D/static/js/main.2aa5eda2.chunk.js.map",
-    "runtime-main.js": "$%7Bprocess.env.PUBLIC_URL%7D/static/js/runtime-main.d069c04c.js",
-    "runtime-main.js.map": "$%7Bprocess.env.PUBLIC_URL%7D/static/js/runtime-main.d069c04c.js.map",
-    "static/css/2.17e5ed98.chunk.css": "$%7Bprocess.env.PUBLIC_URL%7D/static/css/2.17e5ed98.chunk.css",
-    "static/js/2.6e830ec7.chunk.js": "$%7Bprocess.env.PUBLIC_URL%7D/static/js/2.6e830ec7.chunk.js",
-    "static/js/2.6e830ec7.chunk.js.map": "$%7Bprocess.env.PUBLIC_URL%7D/static/js/2.6e830ec7.chunk.js.map",
-    "index.html": "$%7Bprocess.env.PUBLIC_URL%7D/index.html",
-    "precache-manifest.68a277e97e37c08207dfa07ec941103e.js": "$%7Bprocess.env.PUBLIC_URL%7D/precache-manifest.68a277e97e37c08207dfa07ec941103e.js",
-    "service-worker.js": "$%7Bprocess.env.PUBLIC_URL%7D/service-worker.js",
-    "static/css/2.17e5ed98.chunk.css.map": "$%7Bprocess.env.PUBLIC_URL%7D/static/css/2.17e5ed98.chunk.css.map",
-    "static/css/main.33213e63.chunk.css.map": "$%7Bprocess.env.PUBLIC_URL%7D/static/css/main.33213e63.chunk.css.map",
-    "static/media/scg-logo.png": "$%7Bprocess.env.PUBLIC_URL%7D/static/media/scg-logo.23817162.png"
+    "main.css": "/static/css/main.33213e63.chunk.css",
+    "main.js": "/static/js/main.c5854483.chunk.js",
+    "main.js.map": "/static/js/main.c5854483.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.79fbf0b5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.79fbf0b5.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.6e830ec7.chunk.js": "/static/js/2.6e830ec7.chunk.js",
+    "static/js/2.6e830ec7.chunk.js.map": "/static/js/2.6e830ec7.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.8aa49c4ef8bf1da5eb23a5bb091a1c2a.js": "/precache-manifest.8aa49c4ef8bf1da5eb23a5bb091a1c2a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.33213e63.chunk.css.map": "/static/css/main.33213e63.chunk.css.map",
+    "static/media/scg-logo.png": "/static/media/scg-logo.23817162.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d069c04c.js",
+    "static/js/runtime-main.79fbf0b5.js",
     "static/css/2.17e5ed98.chunk.css",
     "static/js/2.6e830ec7.chunk.js",
     "static/css/main.33213e63.chunk.css",
-    "static/js/main.2aa5eda2.chunk.js"
+    "static/js/main.c5854483.chunk.js"
   ]
 }
