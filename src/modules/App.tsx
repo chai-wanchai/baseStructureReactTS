@@ -19,10 +19,8 @@ export default class App extends React.Component<any, any> {
 	componentDidMount() {
 		
 	}
-	onLoginWithLine(liff) {
-		this.setState({
-			...liff.profile
-		})
+	onLoginWithLine(liff) {		
+		console.log(liff);
 	}
 	render() {
 		return (
@@ -34,6 +32,7 @@ export default class App extends React.Component<any, any> {
 					Status Msg : {this.state.statusMessage}
 					
 						{JSON.stringify(this.state)}
+						{JSON.stringify(process.env)}
 				</p>
 				<LineLogin onClick={this.onLoginWithLine} />
 				<button color="primary" >QR CODE</button>

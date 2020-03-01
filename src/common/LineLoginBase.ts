@@ -1,15 +1,16 @@
+import * as _ from 'lodash'
 const Windows = window as any
-
 export class LIFF {
 	liff: any = Windows.liff
 	liffId = '1653889562-E1gkq4o8'//'1614469837-39D866X7'
-	profile = {}
+	private profile = {}
+	private access_token = ''
 	async initialize(liffId?: string) {
 		await this.liff.init({ liffId: liffId || this.liffId })
 		if (!this.liff.isLoggedIn()) {
 			this.liff.login()
 		} else {
-			this.profile = await this.liff.getProfile();
+			this.access_token = await this.liff.getAccessToken();
 		}
 	}
 	async getProfile() {
@@ -35,7 +36,12 @@ export class LIFF {
 		return this.liff.getLanguage();
 	}
 	getAccessToken() {
-		return this.liff.getAccessToken();
+		if (_.isEmpty(this.access_token)) {
+			return this.liff.getAccessToken();
+		} else {
+			return this.access_token
+		}
+
 	}
 	async getDecodedIDToken() {
 		const result = await this.liff.getDecodedIDToken();

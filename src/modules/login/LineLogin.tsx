@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import logo from '../../asset/Line_Base.png';
 import './lineLogin.css';
 import LIFF from '../../common/LineLoginBase';
+import AuthApi from '../../api/AuthApi'
 export default class LineLogin extends Component<any> {
 	liff = LIFF
 	constructor(props: any) {
@@ -10,7 +11,9 @@ export default class LineLogin extends Component<any> {
 	}
 	async onClickLogin() {
 		await this.liff.initialize()
-		console.log(this.liff.getOS())
+		const line_token = await this.liff.getAccessToken();		
+		const result = AuthApi.loginWithLine(line_token);
+		console.log(result);
 		if (this.props.onClick) {
 			this.props.onClick(this.liff)
 		}
