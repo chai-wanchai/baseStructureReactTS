@@ -10,6 +10,7 @@ export default class LineLogin extends Component<any> {
 	}
 	async onClickLogin() {
 		await this.liff.initialize()
+		console.log(this.liff.getOS())
 		if (this.props.onClick) {
 			this.props.onClick(this.liff)
 		}
@@ -19,7 +20,7 @@ export default class LineLogin extends Component<any> {
 			<React.Fragment>
 				<button className='button-no-default button-expand-90 line-button' onClick={this.onClickLogin}>
 					<img src={logo} alt='line'></img>
-					<label>Log in with LINE @chai</label>
+					<label>Log in with LINE</label>
 				</button>
 			</React.Fragment>
 		)

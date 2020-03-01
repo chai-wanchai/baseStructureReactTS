@@ -28,5 +28,18 @@ export class LIFF {
 	sendMessage(Msg: Array<any>) {
 		this.liff.sendMessages(Msg)
 	}
+	getOS() {
+		return this.liff.getOS();
+	}
+	getLanguage() {
+		return this.liff.getLanguage();
+	}
+	getAccessToken() {
+		return this.liff.getAccessToken();
+	}
+	async getDecodedIDToken() {
+		const result = await this.liff.getDecodedIDToken();
+		return result
+	}
 }
 export default new LIFF()
