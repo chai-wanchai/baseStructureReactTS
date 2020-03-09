@@ -4,19 +4,18 @@ import './lineLogin.css';
 import LIFF from '../../common/LineLoginBase';
 import AuthApi from '../../api/AuthApi'
 export default class LineLogin extends Component<any> {
-	liff = LIFF
+
 	constructor(props: any) {
 		super(props)
 		this.onClickLogin = this.onClickLogin.bind(this)
 	}
 	async onClickLogin() {
-		await this.liff.initialize()
-		const line_token = await this.liff.getAccessToken();		
-		const result = AuthApi.loginWithLine(line_token);
-		console.log(result);
-		if (this.props.onClick) {
-			this.props.onClick(this.liff)
-		}
+		await LIFF.initialize()
+		const line_token = await LIFF.getAccessToken();		
+		console.log(line_token)
+		// const result = AuthApi.loginWithLine(line_token);
+		// alert(JSON.stringify(result))
+		
 	};
 	render() {
 		return (
