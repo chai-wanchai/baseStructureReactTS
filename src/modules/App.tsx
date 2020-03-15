@@ -2,10 +2,10 @@ import React from 'react';
 import logo from '../asset/logo.svg';
 //import '../style/App.css';
 import LineLogin from './login/LineLogin'
+import GoogleLogin from './login/GoogleLogin'
 import Layout from '../common/components/Layout'
 import Header from '../common/components/Header';
 import LIFF from '../common/LineLoginBase';
-import { async } from 'q';
 export default class App extends React.Component<any, any> {
 	constructor(props) {
 		super(props);
@@ -19,9 +19,9 @@ export default class App extends React.Component<any, any> {
 		this.OpenQR = this.OpenQR.bind(this);
 	}
 	async componentDidMount() {
-		await LIFF.initialize()
-		const profile = await LIFF.getProfile()
-		this.setState({ ...profile })
+		// await LIFF.initialize()
+		// const profile = await LIFF.getProfile()
+		// this.setState({ ...profile })
 	}
 	async OpenQR() {
 		try {
@@ -33,7 +33,7 @@ export default class App extends React.Component<any, any> {
 
 		//this.setState({ resultQR: result })
 	}
-	render() {
+	render() {	
 		return (
 			<React.Fragment>
 				<img src={this.state.pictureUrl} className="App-logo" alt="logo" />
@@ -46,6 +46,7 @@ export default class App extends React.Component<any, any> {
 					{JSON.stringify(process.env)}
 				</p>
 				<LineLogin />
+				<GoogleLogin/>
 				<button color="primary" onClick={this.OpenQR}>QR CODE</button>
 				<button color="primary" >Close</button>
 
