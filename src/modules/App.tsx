@@ -6,6 +6,7 @@ import GoogleLogin from './login/GoogleLogin'
 import Layout from '../common/components/Layout'
 import Header from '../common/components/Header';
 import LIFF from '../common/LineLoginBase';
+import AuthApi from '../api/AuthApi'
 export default class App extends React.Component<any, any> {
 	constructor(props) {
 		super(props);
@@ -17,11 +18,16 @@ export default class App extends React.Component<any, any> {
 			resultQR: ''
 		};
 		this.OpenQR = this.OpenQR.bind(this);
+		this.onClose = this.onClose.bind(this);
 	}
 	async componentDidMount() {
 		// await LIFF.initialize()
 		// const profile = await LIFF.getProfile()
 		// this.setState({ ...profile })
+	}
+	async onClose(){
+		const result = await AuthApi.loginWithUserPass()
+		console.log(result)
 	}
 	async OpenQR() {
 		try {
@@ -48,7 +54,7 @@ export default class App extends React.Component<any, any> {
 				<LineLogin />
 				<GoogleLogin/>
 				<button color="primary" onClick={this.OpenQR}>QR CODE</button>
-				<button color="primary" >Close</button>
+				<button color="primary" onClick={this.onClose}>Close</button>
 
 			</React.Fragment>
 		)

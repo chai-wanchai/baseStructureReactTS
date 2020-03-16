@@ -15,6 +15,14 @@ class AuthApi {
     const url = `${process.env.REACT_APP_GOOGLE_API_URL}/o/oauth2/v2/auth?${queryString.stringify(query)}`
     window.open(url)
   }
+  async loginWithUserPass():Promise<any>{
+    const result = await axios.post(`${process.env.REACT_APP_API_URL}/api/v1/login`)
+    return result.data
+  }
+  async refreshToken():Promise<any>{
+    const result = await axios.post(`${process.env.REACT_APP_API_URL}/api/v1/login/auth`)
+    return result.data
+  }
 }
 
 export default new AuthApi()
