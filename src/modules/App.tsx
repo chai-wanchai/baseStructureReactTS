@@ -26,7 +26,7 @@ export default class App extends React.Component<any, any> {
 		// this.setState({ ...profile })
 	}
 	async onClose(){
-		const result = await AuthApi.loginWithUserPass()
+		const result = await AuthApi.loginWithUserPass('wanchai@gmail.com','chai')
 		console.log(result)
 	}
 	async OpenQR() {
